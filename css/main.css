@@ -1,0 +1,99 @@
+@page {
+  size: A4;
+}
+
+@media print {
+  .cover_letter {page-break-after: always;}
+}
+
+.cover_letter{
+  font-size: 150%;
+}
+
+hr {
+  height:2px;
+  color: black;
+  background-color: black;
+
+}
+
+body {
+  font-size: 0.8em;
+  color: #444;
+  font-family: 'Lato', sans-serif;
+}
+
+.title{
+  font-family: 'Raleway', sans-serif;
+}
+
+.strong{
+  font-weight: bold;
+}
+
+.gray{
+  color: #222;
+}
+.links {
+  margin-bottom: 0px;
+}
+
+.links:nth-child(3) {
+  margin-left: 2px;
+}
+
+.links{
+  margin-top: 3px;
+}
+
+.referencias {
+  margin-top: 25px;
+}
+
+.title {
+  margin-top: 10px;
+}
+
+.skill {
+  display: inline-block;
+  background-color: #ddd;
+  border-radius: 3px;
+  padding: 2px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.role {
+  color: #888;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.description{
+  margin-top:0;
+}
+
+.company {
+  margin-bottom:2px;
+}
+
+.project>p:first-child{
+  color: #888;
+  margin-bottom: 0;
+}
+.project>p:last-child{
+  margin-top: 0;
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+.side>h6{
+  color: #999;
+}
+
+h5{
+  font-size: 150%;
+  color: #999;
+}
